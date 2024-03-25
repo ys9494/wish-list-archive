@@ -1,0 +1,68 @@
+@charset "utf-8";
+@import "reset.css";
+
+/* Buttons */
+.btn {
+  border: none;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+
+.delete-btn {
+  width: 20px;
+  height: 20px;
+}
+.delete-btn img {
+  width: 18px;
+}
+
+.edit-btn {
+  width: 24px;
+  height: 24px;
+}
+
+.link-btn {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+.link-btn img {
+  height: 18px;
+}
+
+.new-btn {
+  width: 32px;
+  width: 32px;
+}
+
+.submit-btn {
+  border-radius: 15px;
+}
+
+.sign-btn {
+  width: 360px;
+  height: 44px;
+  background-color: var(--main-color);
+  color: #fff;
+  font-family: var(--sub-font);
+  font-size: 18px;
+}
+.post-save-btn {
+  width: 54px;
+  height: 33px;
+  background-color: var(--main-color);
+  color: #fff;
+}
+.post-delete-btn {
+  width: 54px;
+  height: 33px;
+  background-color: var(--bg-color);
+  color: var(--main-color);
+}

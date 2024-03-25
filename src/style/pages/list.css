@@ -1,0 +1,25 @@
+.list-page {
+  height: calc(94vh - 80px);
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.list-page::-webkit-scrollbar {
+  display: none;
+}
+
+.new-btn-wrapper {
+  position: fixed;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(85, 62, 145, 0.2) 0px 8px 24px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  bottom: 6vh;
+  left: 50%;
+  transform: translateX(-50%);
+}

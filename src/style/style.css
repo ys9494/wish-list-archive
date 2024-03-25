@@ -1,0 +1,76 @@
+@charset "utf-8";
+@import "reset.css";
+@import "./pages/pages.css";
+@import "components.css";
+
+:root {
+  --main-color: rgb(203, 184, 253);
+  --logo-color: #ff8d8d;
+  --sub-color: #563e92;
+  --txt-color: #000;
+  --sub-txt-color: #959595;
+  --placeholder-color: #c6c6c6;
+  --border-color: #ddd;
+  --sub-border-color: #faf8ff;
+  --bg-color: #faf8ff;
+  --emphasis-txt-color: #000;
+  --button-border: #000;
+}
+
+#wrapper {
+  max-width: 720px;
+  height: 94vh;
+  background-color: var(--bg-color);
+  margin: 3vh auto;
+  border-radius: 40px;
+}
+
+#root {
+  overflow-y: visible;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#root::-webkit-scrollbar {
+  display: none;
+}
+
+/* header */
+header {
+  position: relative;
+  width: 100%;
+}
+#logo {
+  font-family: "Playfair Display SC", serif;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer;
+}
+#logo a {
+  color: var(--logo-color);
+}
+
+#go-to-login {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+#go-to-login {
+  display: block;
+  width: 21px;
+  height: 24px;
+}
+
+#go-to-login:hover {
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+.not-found-text {
+  margin: 100px auto 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
